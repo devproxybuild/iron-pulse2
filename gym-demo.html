@@ -29,26 +29,80 @@
     </div>
 
     <!-- THIS INTEGRATES YOUR BOT DIRECTLY -->
-  <script type="text/javascript">
-(function(d, t) {
-  var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-  v.onload = function() {
-    window.voiceflow.chat.load({
-      verify: {
-        projectID: "6a4fc24c5c09fe3e057f4c8e"
-      },
-      versionID: "production",
-      url: "https://general-runtime.voiceflow.com",
-      voice: {
-        url: "https://runtime-api.voiceflow.com"
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Pulse Fitness | Gym Demo</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #121212; color: white; text-align: center; }
+        header { background: #e50914; padding: 20px; font-weight: bold; font-size: 24px; letter-spacing: 2px; }
+        .hero { padding: 120px 20px; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover; }
+        h1 { font-size: 55px; margin: 0; text-transform: uppercase; color: #fff; }
+        p { font-size: 22px; color: #ff9999; margin-top: 10px; }
+        .btn { background: #e50914; color: white; padding: 15px 35px; border: none; font-size: 20px; font-weight: bold; cursor: pointer; border-radius: 50px; margin-top: 25px; box-shadow: 0 4px 15px rgba(229, 9, 20, 0.4); }
+        .info-section { padding: 50px 20px; background-color: #1c1c1c; font-size: 18px; color: #aaa; }
+    </style>
+</head>
+<body>
+
+    <header>🏋️‍♂️ IRON PULSE FITNESS</header>
+
+    <div class="hero">
+        <h1>No Limits. No Excuses.</h1>
+        <p>24/7 Access • Elite Personal Coaching • State-of-the-Art Recovery Zone</p>
+        <button class="btn">Claim Your Free Pass</button>
+    </div>
+
+    <div class="info-section">
+        <p>Welcome to Iron Pulse. Use our interactive chat helper in the bottom corner to book a tour, get membership pricing, or instantly grab a 1-Day Trial Pass sent straight to your email!</p>
+    </div>
+
+    <!-- THIS INTEGRATES YOUR BOT DIRECTLY -->
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Pulse Fitness | Gym Demo</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #121212; color: white; text-align: center; }
+        header { background: #e50914; padding: 20px; font-weight: bold; font-size: 24px; letter-spacing: 2px; }
+        .hero { padding: 120px 20px; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover; }
+        h1 { font-size: 55px; margin: 0; text-transform: uppercase; color: #fff; }
+        p { font-size: 22px; color: #ff9999; margin-top: 10px; }
+        .btn { background: #e50914; color: white; padding: 15px 35px; border: none; font-size: 20px; font-weight: bold; cursor: pointer; border-radius: 50px; margin-top: 25px; box-shadow: 0 4px 15px rgba(229, 9, 20, 0.4); }
+        .info-section { padding: 50px 20px; background-color: #1c1c1c; font-size: 18px; color: #aaa; }
+    </style>
+</head>
+<body>
+
+    <header>🏋️‍♂️ IRON PULSE FITNESS</header>
+
+    <div class="hero">
+        <h1>No Limits. No Excuses.</h1>
+        <p>24/7 Access • Elite Personal Coaching • State-of-the-Art Recovery Zone</p>
+        <button class="btn">Claim Your Free Pass</button>
+    </div>
+
+    <div class="info-section">
+        <p>Welcome to Iron Pulse. Use our interactive chat helper in the bottom corner to book a tour, get membership pricing, or instantly grab a 1-Day Trial Pass sent straight to your email!</p>
+    </div>
+
+    <!-- THIS INTEGRATES YOUR BOT DIRECTLY -->
+   <script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '6a5d2cd7aab64daa116110a3' },
+          url: 'https://general-runtime.voiceflow.com',
+          voice: {
+            url: "https://runtime-api.voiceflow.com"
+          }
+        });
       }
-    });
-  };
-  v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs";
-  v.type = "text/javascript";
-  s.parentNode.insertBefore(v, s);
-})(document, "script");
+      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
 </script>
-    
-</body>
-</html>
